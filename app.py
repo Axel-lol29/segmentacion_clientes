@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.cluster import KMeans
 
 st.set_page_config(page_title="Segmentación de clientes", page_icon="🧩", layout="centered")
-st.title("🧩 Segmentación de clientes con K-Means")
+st.title("Segmentación de clientes con K-Means / Axel Mireles")
 
 st.write(
     "La app normaliza (0–1) con **MinMaxScaler**, aplica **K-Means** y grafica los clústeres. "
